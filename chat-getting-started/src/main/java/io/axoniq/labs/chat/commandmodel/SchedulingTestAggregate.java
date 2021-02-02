@@ -32,8 +32,4 @@ public class SchedulingTestAggregate {
 		this.id = event.getId();
 	}
 
-	@EventHandler
-	public void on(ScheduledFromSagaEvent event) {
-		System.out.println("Scheduling from saga was successful" + event.getId());
-	}
 }

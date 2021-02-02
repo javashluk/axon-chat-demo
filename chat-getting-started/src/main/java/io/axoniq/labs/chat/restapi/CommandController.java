@@ -1,6 +1,5 @@
 package io.axoniq.labs.chat.restapi;
 
-import org.axonframework.axonserver.connector.event.axon.AxonServerEventScheduler;
 import org.axonframework.commandhandling.gateway.CommandGateway;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
